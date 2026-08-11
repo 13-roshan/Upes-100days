@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main(){
- float pi=3.1415;
- int r;
- /*printf("Enter length : ");
- scanf("%d",&l);
- printf("Enter beadth :");
- scanf("%d",&b);
- printf("The area of rectangle is : %d \n",l*b);
- printf("The Perimeter of rectangle is : %d \n",2*(l+b));*/
+ float pi = 3.14159265;
+ float r;
  
+ printf("Enter Radius of Circle : ");
+ scanf("%f",&r);
+ printf("The area of the circle is : %f \n",pi*(r*r));
+  printf("The Circumference of the circle is : %f",2*pi*r);
+
 
 
 
